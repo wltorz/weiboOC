@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0377011E795BF800E77273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377001E795BF800E77273 /* main.m */; };
+		AC0377041E795BF800E77273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377031E795BF800E77273 /* AppDelegate.m */; };
+		AC0377071E795BF800E77273 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377061E795BF800E77273 /* ViewController.m */; };
+		AC03770A1E795BF800E77273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0377081E795BF800E77273 /* Main.storyboard */; };
+		AC03770C1E795BF800E77273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC03770B1E795BF800E77273 /* Assets.xcassets */; };
+		AC0377221E7969F900E77273 /* WLTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377211E7969F900E77273 /* WLTTabBarViewController.m */; };
+		AC0377251E796A6700E77273 /* WLTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377241E796A6700E77273 /* WLTHomeViewController.m */; };
+		AC0377281E796A7600E77273 /* WLTMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377271E796A7600E77273 /* WLTMessageViewController.m */; };
+		AC03772B1E796A8900E77273 /* WLTDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03772A1E796A8900E77273 /* WLTDiscoverViewController.m */; };
+		AC03772E1E796A9400E77273 /* WLTMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03772D1E796A9400E77273 /* WLTMeViewController.m */; };
+		AC0377311E796ACB00E77273 /* WLTNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377301E796ACB00E77273 /* WLTNavViewController.m */; };
+		AC0377341E798E5800E77273 /* WLTtabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0377331E798E5800E77273 /* WLTtabBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC0376FC1E795BF800E77273 /* weiboOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiboOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0377001E795BF800E77273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC0377021E795BF800E77273 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC0377031E795BF800E77273 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC0377051E795BF800E77273 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC0377061E795BF800E77273 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC0377091E795BF800E77273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC03770B1E795BF800E77273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0377101E795BF800E77273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0377201E7969F900E77273 /* WLTTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTTabBarViewController.h; sourceTree = "<group>"; };
+		AC0377211E7969F900E77273 /* WLTTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTTabBarViewController.m; sourceTree = "<group>"; };
+		AC0377231E796A6700E77273 /* WLTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTHomeViewController.h; sourceTree = "<group>"; };
+		AC0377241E796A6700E77273 /* WLTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTHomeViewController.m; sourceTree = "<group>"; };
+		AC0377261E796A7600E77273 /* WLTMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTMessageViewController.h; sourceTree = "<group>"; };
+		AC0377271E796A7600E77273 /* WLTMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTMessageViewController.m; sourceTree = "<group>"; };
+		AC0377291E796A8900E77273 /* WLTDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTDiscoverViewController.h; sourceTree = "<group>"; };
+		AC03772A1E796A8900E77273 /* WLTDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTDiscoverViewController.m; sourceTree = "<group>"; };
+		AC03772C1E796A9400E77273 /* WLTMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTMeViewController.h; sourceTree = "<group>"; };
+		AC03772D1E796A9400E77273 /* WLTMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTMeViewController.m; sourceTree = "<group>"; };
+		AC03772F1E796ACB00E77273 /* WLTNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTNavViewController.h; sourceTree = "<group>"; };
+		AC0377301E796ACB00E77273 /* WLTNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTNavViewController.m; sourceTree = "<group>"; };
+		AC0377321E798E5800E77273 /* WLTtabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTtabBar.h; sourceTree = "<group>"; };
+		AC0377331E798E5800E77273 /* WLTtabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTtabBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0376F91E795BF800E77273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0376F31E795BF800E77273 = {
+			isa = PBXGroup;
+			children = (
+				AC0376FE1E795BF800E77273 /* weiboOC */,
+				AC0376FD1E795BF800E77273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0376FD1E795BF800E77273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0376FC1E795BF800E77273 /* weiboOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0376FE1E795BF800E77273 /* weiboOC */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377161E79634E00E77273 /* Classes */,
+				AC0377021E795BF800E77273 /* AppDelegate.h */,
+				AC0377031E795BF800E77273 /* AppDelegate.m */,
+				AC0377051E795BF800E77273 /* ViewController.h */,
+				AC0377061E795BF800E77273 /* ViewController.m */,
+				AC0377081E795BF800E77273 /* Main.storyboard */,
+				AC03770B1E795BF800E77273 /* Assets.xcassets */,
+				AC0377101E795BF800E77273 /* Info.plist */,
+				AC0376FF1E795BF800E77273 /* Supporting Files */,
+			);
+			path = weiboOC;
+			sourceTree = "<group>";
+		};
+		AC0376FF1E795BF800E77273 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377001E795BF800E77273 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC0377161E79634E00E77273 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377181E79634E00E77273 /* Tools */,
+				AC0377171E79634E00E77273 /* Model */,
+				AC0377191E79634E00E77273 /* ViewController */,
+				AC03771F1E79634E00E77273 /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AC0377171E79634E00E77273 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC0377181E79634E00E77273 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377321E798E5800E77273 /* WLTtabBar.h */,
+				AC0377331E798E5800E77273 /* WLTtabBar.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		AC0377191E79634E00E77273 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AC03771C1E79634E00E77273 /* Main */,
+				AC03771B1E79634E00E77273 /* Home */,
+				AC03771E1E79634E00E77273 /* Message */,
+				AC03771A1E79634E00E77273 /* Discover */,
+				AC03771D1E79634E00E77273 /* me */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AC03771A1E79634E00E77273 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377291E796A8900E77273 /* WLTDiscoverViewController.h */,
+				AC03772A1E796A8900E77273 /* WLTDiscoverViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		AC03771B1E79634E00E77273 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377231E796A6700E77273 /* WLTHomeViewController.h */,
+				AC0377241E796A6700E77273 /* WLTHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AC03771C1E79634E00E77273 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377201E7969F900E77273 /* WLTTabBarViewController.h */,
+				AC0377211E7969F900E77273 /* WLTTabBarViewController.m */,
+				AC03772F1E796ACB00E77273 /* WLTNavViewController.h */,
+				AC0377301E796ACB00E77273 /* WLTNavViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AC03771D1E79634E00E77273 /* me */ = {
+			isa = PBXGroup;
+			children = (
+				AC03772C1E796A9400E77273 /* WLTMeViewController.h */,
+				AC03772D1E796A9400E77273 /* WLTMeViewController.m */,
+			);
+			path = me;
+			sourceTree = "<group>";
+		};
+		AC03771E1E79634E00E77273 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AC0377261E796A7600E77273 /* WLTMessageViewController.h */,
+				AC0377271E796A7600E77273 /* WLTMessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AC03771F1E79634E00E77273 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0376FB1E795BF800E77273 /* weiboOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0377131E795BF800E77273 /* Build configuration list for PBXNativeTarget "weiboOC" */;
+			buildPhases = (
+				AC0376F81E795BF800E77273 /* Sources */,
+				AC0376F91E795BF800E77273 /* Frameworks */,
+				AC0376FA1E795BF800E77273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weiboOC;
+			productName = weiboOC;
+			productReference = AC0376FC1E795BF800E77273 /* weiboOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0376F41E795BF800E77273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WLT;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "万伶童";
+				TargetAttributes = {
+					AC0376FB1E795BF800E77273 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC0376F71E795BF800E77273 /* Build configuration list for PBXProject "weiboOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0376F31E795BF800E77273;
+			productRefGroup = AC0376FD1E795BF800E77273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0376FB1E795BF800E77273 /* weiboOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0376FA1E795BF800E77273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC03770C1E795BF800E77273 /* Assets.xcassets in Resources */,
+				AC03770A1E795BF800E77273 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0376F81E795BF800E77273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC03772E1E796A9400E77273 /* WLTMeViewController.m in Sources */,
+				AC0377071E795BF800E77273 /* ViewController.m in Sources */,
+				AC0377041E795BF800E77273 /* AppDelegate.m in Sources */,
+				AC0377311E796ACB00E77273 /* WLTNavViewController.m in Sources */,
+				AC03772B1E796A8900E77273 /* WLTDiscoverViewController.m in Sources */,
+				AC0377341E798E5800E77273 /* WLTtabBar.m in Sources */,
+				AC0377221E7969F900E77273 /* WLTTabBarViewController.m in Sources */,
+				AC0377251E796A6700E77273 /* WLTHomeViewController.m in Sources */,
+				AC0377281E796A7600E77273 /* WLTMessageViewController.m in Sources */,
+				AC0377011E795BF800E77273 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC0377081E795BF800E77273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0377091E795BF800E77273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0377111E795BF800E77273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC0377121E795BF800E77273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0377141E795BF800E77273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = weiboOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qq-284975703.weiboOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC0377151E795BF800E77273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = weiboOC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qq-284975703.weiboOC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0376F71E795BF800E77273 /* Build configuration list for PBXProject "weiboOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0377111E795BF800E77273 /* Debug */,
+				AC0377121E795BF800E77273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0377131E795BF800E77273 /* Build configuration list for PBXNativeTarget "weiboOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0377141E795BF800E77273 /* Debug */,
+				AC0377151E795BF800E77273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0376F41E795BF800E77273 /* Project object */;
+}
